@@ -164,9 +164,18 @@
         transform: translateY(-0.25em);
     }
 
-/* .home_page__person > a > .btn-success:hover {
-  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.4);
-} */
+.btn-danger {
+    border-radius: 50px;
+    background-color: #fb4d4d !important;
+    border-color: #fb4d4d !important;
+    transition: all 0.15s ease-in;
+}
+
+    .btn-danger:hover,
+    .btn-danger:focus {
+        box-shadow: 0 0.5em 0.5em -0.4em #000;
+        transform: translateY(-0.25em);
+    }
 
 .home_page__mail {
     margin-bottom: 20px;
@@ -204,3 +213,8 @@
     .skill__card:hover {
         box-shadow: 0 4px 6px hsla(0, 0%, 0%, 0.2);
     }
+
+.button__pre_next {
+    display: flex;
+    justify-content: space-between;
+}
