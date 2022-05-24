@@ -6,8 +6,9 @@ using System.Web.Mvc;
 
 namespace CVApplication.Controllers
 {
-    public class HomeController : Controller
+    public class CVController : Controller
     {
+        // GET: CV
         [HttpGet]
         public ActionResult Index()
         {
@@ -15,18 +16,26 @@ namespace CVApplication.Controllers
         }
 
         [HttpGet]
-        public ActionResult About()
+        public ActionResult Personal()
         {
-            ViewBag.Message = "Your application description page.";
-
             return View();
         }
 
         [HttpGet]
-        public ActionResult Contact()
+        public ActionResult Educational()
         {
-            ViewBag.Message = "Your contact page.";
+            return View();
+        }
 
+        [HttpGet]
+        public ActionResult Project()
+        {
+            return View();
+        }
+
+        [HttpGet]
+        public ActionResult Reference()
+        {
             return View();
         }
     }

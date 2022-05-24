@@ -1,0 +1,53 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Home</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Neucha&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400&display=swap"
+          rel="stylesheet">
+    
+    @Styles.Render("~/Content/css")
+</head>
+<body>
+    <div class="wrapper">
+        <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <div class="container home_page">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="home_page__img">
+                        <img src="/Assets/IMG_9286.jpg" alt="Alvi Hasan">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="home_page__person">
+                        <h1><span>Alvi </span>Hasan</h1>
+                        <div class="home_page__mail">
+                            <span>Mail:</span> <a href="mailto:livealvi@gmail.com">livealvi@gmail.com</a>
+                        </div>
+                        <button type="button" class="btn btn-success"><a href="#">Next Page</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
